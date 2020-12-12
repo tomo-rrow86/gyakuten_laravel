@@ -27,7 +27,11 @@
                   投稿日時
               </span>
           </div>
-      @endforeach
+        @endforeach
+      
+        <div class="d-flex justify-content-center mb-5">
+          {{$posts->links()}}
+        </div>
       </div>
   </div>
   
