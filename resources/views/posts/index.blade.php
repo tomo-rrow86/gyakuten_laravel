@@ -1,8 +1,6 @@
 @extends('layouts')
 
 @section('content')
-
-  
   <div class="container mt-4">
     <div class="mb-4">
       <a href="{{route('posts.create')}}" class="btn btn-primary">
@@ -28,11 +26,9 @@
               </span>
           </div>
         @endforeach
-      
         <div class="d-flex justify-content-center mb-5">
           {{$posts->links()}}
         </div>
       </div>
   </div>
-  
 @endsection
